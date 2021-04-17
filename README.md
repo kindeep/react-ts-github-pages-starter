@@ -1,8 +1,18 @@
 # Github Pages
 
-Make sure you enable github pages from your repository settings, set the pages branch to `gh-pages`
+1. Make sure you enable github pages from your repository settings, set the pages branch to `gh-pages`
+2. Make sure you set the `homepage` property in `package.json` to what corresponds to your github repository, i.e. `https://<github-username>.github.io/<repository-name>`
 
-All commits to main get built and put into to the `gh-pages` branch, and subsequently to github pages
+```
+{
+  ...
+  "homepage": "https://<github-username>.github.io/<repository-name>",
+  "dependencies": {
+  ...
+}
+```
+
+All commits to main get built and put into to the `gh-pages` branch, and subsequently to github pages.
 
 # Getting Started with Create React App
 
