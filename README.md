@@ -1,3 +1,9 @@
+# Github Pages
+
+Make sure you enable github pages from your repository settings, set the pages branch to `gh-pages`
+
+All commits to main get built and put into to the `gh-pages` branch, and subsequently to github pages
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
